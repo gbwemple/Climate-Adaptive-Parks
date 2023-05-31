@@ -1,5 +1,4 @@
-# Climate Adaptive Parks: 
-# Closing the Recreational Space Service Gap
+# Climate Adaptive Parks: Closing the Recreational Space Service Gap
 
 # Abstract
 Access to park space varies throughout Syracuse, NY and has led to underserved neighborhoods. This tool has identified the neighborhoods in Syracuse that have the least access to Climate Adaptive Parks (CAP). The tool will then identify areas of land that could potentially serve as a new CAP to bridge the existing service gap. The tool can be personalized to the user's preferences by being able to rank characteristics of potential areas of land as more favorable than another. 
