@@ -30,7 +30,6 @@ This analysis used Syracuse City parcel and neighborhood boundary data from Open
   - Parcel Data
      - Land use codes designating public park space
      - Land use codes to identify vacancy type
-     - Assessed value
      - Owner
      - Area
  - Neighborhood Data
@@ -55,6 +54,10 @@ The main scripts should produce the following outputs in this order:
 
 # Results
 
+# Applying to Other Locations
+scaled down or what to do if you dont have env rem data (edit code or put in file that has no parcels)
 
+# Future Applications
+no new considerations, just portability
 
 
