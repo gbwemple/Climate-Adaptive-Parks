@@ -58,13 +58,13 @@ print('Number of parcels before filtering: ', len(df_parks))
 
 #Plot park and school parcels
 
-fig1,ax1 = plt.subplots()
-city.boundary.plot(ax=ax1,color='gray')
-df_parks.plot(ax=ax1,column='kind',legend=True)
-ax1.set_title('Park and School Parcels')
-ax1.axis(False)
-fig1.tight_layout()
-fig1.savefig('parks_and_schools.png')
+#fig1,ax1 = plt.subplots()
+#city.boundary.plot(ax=ax1,color='gray')
+#df_parks.plot(ax=ax1,column='kind',legend=True)
+#ax1.set_title('Park and School Parcels')
+#ax1.axis(False)
+#fig1.tight_layout()
+#fig1.savefig('parks_and_schools.png')
 
 #%%
 
@@ -82,13 +82,13 @@ print('Number of parcels meeting radius criteria:', len(df_parks))
 
 #Plot park and school parcels meeting radius criteria
 
-fig2,ax2 = plt.subplots()
-city.boundary.plot(ax=ax2,color='gray')
-df_parks.plot(ax=ax2,column='kind',legend=True)
-ax2.set_title('Park and School Parcels - Filtered')
-ax2.axis(False)
-fig2.tight_layout()
-fig2.savefig('parks_and_schools_filtered.png')
+#fig2,ax2 = plt.subplots()
+#city.boundary.plot(ax=ax2,color='gray')
+#df_parks.plot(ax=ax2,column='kind',legend=True)
+#ax2.set_title('Park and School Parcels - Filtered')
+#ax2.axis(False)
+#fig2.tight_layout()
+#fig2.savefig('parks_and_schools_filtered.png')
 
 #%%
 
@@ -102,14 +102,14 @@ buffer = df_parks.buffer(buffer_m)
 
 #Plot the buffer
 
-fig3,ax3 = plt.subplots()
-city.boundary.plot(ax=ax3,color='gray')
-buffer.plot(ax=ax3,color='lightgreen')
-df_parks.plot(ax=ax3,column='kind',legend=True)
-ax3.set_title('Park and School Parcels Buffer')
-ax3.axis(False)
-fig3.tight_layout()
-fig3.savefig('parks_and_schools_buffer.png')
+#fig3,ax3 = plt.subplots()
+#city.boundary.plot(ax=ax3,color='gray')
+#buffer.plot(ax=ax3,color='lightgreen')
+#df_parks.plot(ax=ax3,column='kind',legend=True)
+#ax3.set_title('Park and School Parcels Buffer')
+#ax3.axis(False)
+#fig3.tight_layout()
+#fig3.savefig('parks_and_schools_buffer.png')
 
 #%%
 
@@ -139,12 +139,12 @@ print('Number of records after filtering out by combined size:',len(combined_siz
 fig4,ax4 = plt.subplots()
 city.boundary.plot(ax=ax4,color='gray')
 combined_size_filter.plot(ax=ax4,color='green')
-ax4.set_title('Current CAP Inventory')
+ax4.set_title('Current CAP Inventory in Syracuse, NY')
 ax4.axis(False)
 fig4.tight_layout()
 fig4.savefig('current_CAP_parcels.png')
 
 #%%
 
-combined_size_filter.to_file('current_CAP_inventory.gpkg',layer='CAP_parcels')
+combined_size_filter.to_file('current_CAP_inventory.gpkg',layer='current_CAP_parcels')
 

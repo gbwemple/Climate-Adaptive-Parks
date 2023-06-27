@@ -63,12 +63,12 @@ combined_er_vp['id'] = combined_er_vp.index
 
 #Map the parcels combined
 
-fig1,ax1 = plt.subplots()
-combined_er_vp.plot(ax=ax1,color='darkorange')
-ax1.set_title('Current ER and VP Inventory')
-ax1.axis(False)
-fig1.tight_layout()
-fig1.savefig('combined_er_vp.png')
+#fig1,ax1 = plt.subplots()
+#combined_er_vp.plot(ax=ax1,color='darkorange')
+#ax1.set_title('Current ER and VP Inventory')
+#ax1.axis(False)
+#fig1.tight_layout()
+#fig1.savefig('combined_er_vp.png')
 
 #%%
 
@@ -148,10 +148,10 @@ city = city.to_crs(combined_size_filter.crs)
 fig2,ax2 = plt.subplots()
 city.boundary.plot(ax=ax2,color='gray')
 combined_size_filter.plot(ax=ax2,color='darkorange')
-ax2.set_title('Potential CAP Inventory')
+ax2.set_title('Potential CAP Inventory in Syracuse, NY')
 ax2.axis(False)
 fig2.tight_layout()
-fig2.savefig('potential_CAP_inventory.png')
+fig2.savefig('potential_CAP_parcels.png')
 
 
 #%%

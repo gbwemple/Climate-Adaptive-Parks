@@ -55,14 +55,16 @@ for col,program in attrs.items():
 
 #Map the remediation parcels with legend
 
-fig1,ax1 = plt.subplots()
-city.boundary.plot(ax=ax1,color='black')
-trimmed_remediation.plot(ax=ax1,column='PROGRAM',legend=True)
-#
-ax1.set_title('Current Environmental Remediation Sites')
-ax1.axis(False)
-fig1.tight_layout()
-fig1.savefig('current_remediation_parcels.png')
+#fig1,ax1 = plt.subplots()
+#city.boundary.plot(ax=ax1,color='black')
+#trimmed_remediation.plot(ax=ax1,column='PROGRAM',legend=True)
+#ax1.set_title('Current Environmental Remediation Sites')
+#fixed = ax1.get_legend()
+#fixed.set_bbox_to_anchor((2,1))
+#ax1.legend(loc='lower right', title='Clean-Up Type')
+#ax1.axis(False)
+#fig1.tight_layout()
+#fig1.savefig('current_remediation_parcels.png')
 
 #%%
 

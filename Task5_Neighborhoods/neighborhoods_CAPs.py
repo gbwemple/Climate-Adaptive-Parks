@@ -26,13 +26,13 @@ neighbors = gpd.read_file('syracuse_neighborhood_boundaries.zip')
 
 #Make a map with neighborhoods and parks
 
-fig1,ax1 = plt.subplots()
-neighbors.boundary.plot(ax=ax1,color='black')
-current_CAPs.plot(ax=ax1)
-ax1.set_title('Neighborhoods & Current CAPs')
-ax1.axis(False)
-fig1.tight_layout()
-fig1.savefig('neighborhood_current_CAPs.png')
+#fig1,ax1 = plt.subplots()
+#neighbors.boundary.plot(ax=ax1,color='black')
+#current_CAPs.plot(ax=ax1)
+#ax1.set_title('Neighborhoods & Current CAPs')
+#ax1.axis(False)
+#fig1.tight_layout()
+#fig1.savefig('neighborhood_current_CAPs.png')
 
 #%%
 
@@ -69,13 +69,13 @@ potential_CAPs = gpd.read_file(f'{dir_ervp}/{geo_ervp}')
 
 #Make a map with neighborhoods and potential CAPs
 
-fig2,ax2 = plt.subplots()
-neighbors.boundary.plot(ax=ax2,color='black')
-potential_CAPs.plot(ax=ax2,color='darkorange')
-ax2.set_title('Neighborhoods & Potential CAPs')
-ax2.axis(False)
-fig2.tight_layout()
-fig2.savefig('neighborhood_potential_CAPs.png')
+#fig2,ax2 = plt.subplots()
+#neighbors.boundary.plot(ax=ax2,color='black')
+#potential_CAPs.plot(ax=ax2,color='darkorange')
+#ax2.set_title('Neighborhoods & Potential CAPs')
+#ax2.axis(False)
+#fig2.tight_layout()
+#fig2.savefig('neighborhood_potential_CAPs.png')
 
 #%%
 
@@ -85,7 +85,7 @@ fig3,ax3 = plt.subplots()
 neighbors.boundary.plot(ax=ax3,color='black')
 current_CAPs.plot(ax=ax3)
 potential_CAPs.plot(ax=ax3,color='darkorange')
-ax3.set_title('Current & Potential CAPs')
+ax3.set_title('Current & Potential CAPs in Syracuse, NY')
 ax3.axis(False)
 fig3.tight_layout()
 fig3.savefig('neighborhoods_all_CAPs.png')
