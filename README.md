@@ -66,17 +66,15 @@ The main scripts should produce the following outputs in this order:
 
 The following CAP spaces were identified in Syracuse, NY:
 
-![Current CAPs in Syracuse, NY](images/current_CAP_parcels.png)
+![Current CAPs in Syracuse, NY](https://github.com/gbwemple/Climate-Adaptive-Parks/blob/main/Task1_Current-CAP-Inventory/current_CAP_parcels.png?raw=true)
 
 The following potential CAP spaces were identified in Syracuse, NY:
 
-![Potential CAPs in Syracuse, NY](images/potential_CAP_inventory.png)
+![Potential CAPs in Syracuse, NY](https://github.com/gbwemple/Climate-Adaptive-Parks/blob/main/Task4_Potential-CAP-Inventory/potential_CAP_parcels.png?raw=true)
 
 The following neighborhoods were identified as the most underserviced for large park space; 
 
-#Insert CSV
-
-![Current and Potential CAPs by Neighborhood in Syracuse, NY](images/neighborhood_all_CAPs.png)
+![Current and Potential CAPs by Neighborhood in Syracuse, NY](https://github.com/gbwemple/Climate-Adaptive-Parks/blob/main/Task5_Neighborhoods/neighborhoods_all_CAPs.png?raw=true)
 
 
 # Future Applications
